@@ -8,7 +8,7 @@ from fastapi import FastAPI, HTTPException, Depends, Form, UploadFile, File
 from fastapi.middleware.cors import CORSMiddleware
 from sqlalchemy.orm import Session
 
-from api.database import init_db, get_db, AnalysisHistory
+from database import init_db, get_db, AnalysisHistory
 
 from deepsafe_utils.video_analyzer import extract_frames
 
