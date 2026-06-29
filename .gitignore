@@ -1,0 +1,17 @@
+# Python
+venv/
+__pycache__/
+*.pyc
+
+# React
+frontend/node_modules/
+
+# Datasets
+dataset/
+video_dataset/
+
+# VS Code
+.vscode/
+
+# Environment
+.env
